@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const row = document.createElement('tr');
         row.innerHTML = `
           <td>${song.title}</td>
-          <td>${song.artist}</td>
+          <td>${song.artists}</td>
           <td>${song.genre}</td>
           <td>${song.bpm}</td>
           <td>${song.duration}</td>

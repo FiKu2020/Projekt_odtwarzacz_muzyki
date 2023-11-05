@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="./index.css" />
-  <script src="script.js"></script>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WyszukiwanieMuzyki</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <section class="WyszukiwanieMuzyki">
-      <strong>wyszukiwarka muzyki</strong>
+      <strong>Biblioteka audio</strong>
     </section>
     <section class="searchByGenre">
       <form>
@@ -40,7 +40,7 @@
       </form>
     </section>
     <section class="Songs">
-      <table class="SongsStorage" id="SongsTable">
+      <table class="SongsStorage">
         <thead>
           <tr>
             <th>Title</th>
@@ -49,6 +49,8 @@
             <th>BPM</th>
             <th>Duration</th>
           </tr>
+        </thead>
+        <tbody id="songsData"></tbody>
       </table>
     </section>
   </body>
