@@ -29,10 +29,32 @@ section {
   padding: 10px;
   margin-top: 10px;
   display: flex;
+  background-color: #2a2b2a;
 }
 .ChooseBPM {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
   display: flex;
+  background-color: #2a2b2a;
 }
+.SongsStorage{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.SongsStorage th{
+    background-color: red;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
