@@ -12,8 +12,8 @@
     </section>
     <section class="searchByGenre">
       <form>
+        <label for="genreSearch">Choose a genre</label>
         <select name="genreSearch">
-          <label for="genreSearch">Choose a genre</label>
           <option value="all">all</option>
           <option value="Pop">Pop</option>
           <option value="Rap">Rap</option>
@@ -38,9 +38,17 @@
         </select>
       </form>
     </section>
-    <section class="SearchByLength"></section>
     <section class="Songs">
-      <table class="SongsStorage"></table>
+      <table class="SongsStorage">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Genre</th>
+            <th>BPM</th>
+            <th>Duration</th>
+          </tr>
+      </table>
     </section>
   </body>
 </html>
