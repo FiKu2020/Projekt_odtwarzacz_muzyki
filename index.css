@@ -1,0 +1,29 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  padding: 0;
+  background-color: #2a2b2a;
+  color: white;
+}
+section {
+    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+.WyszukiwanieMuzyki {
+    width: auto;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  background-color:  #326771;;
+
+  padding: 0;
+}
+.SearchByGenre {
+}
+.ChooseBPM {
+}
