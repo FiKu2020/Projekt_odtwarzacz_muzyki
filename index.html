@@ -7,11 +7,12 @@
   </head>
   <body>
     <section class="WyszukiwanieMuzyki">
-      <strong>Music Searching</strong>
+      <strong>wyszukiwarka muzyki</strong>
     </section>
     <section class="searchByGenre">
       <form>
-        <select name="genreSearch" text="choose a genre">
+        <select name="genreSearch">
+          <option value="all">Choose a genre...</option>
           <option value="Pop">Pop</option>
           <option value="Rap">Rap</option>
           <option value="R&B">r&b</option>
@@ -24,8 +25,19 @@
         </select>
       </form>
     </section>
-    <section class="ChooseBPM"></section>
+    <section class="ChooseBPM">
+      <form>
+        <label for="bpmSearch">Choose tempo:</label>
+        <select name="bpmSearch" id="bpmSearch">
+          <option value="all">any tempo</option>
+          <option value="slow">Slow</option>
+          <option value="medium">Medium</option>
+          <option value="fast">Fast</option>
+        </select>
+      </form>
+    </section>
     <section class="SearchByLength"></section>
     <section class="Songs"></section>
+    <table class="SongsStorage"></table>
   </body>
 </html>
